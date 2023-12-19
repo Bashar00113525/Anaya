@@ -1786,7 +1786,7 @@ def danger_menu():
         print ("")
         input(" Press Enter To Send Key")
         os.system("xdg-open https://wa.me/+8801780782237")
-        danger_menu()
+        danger_menu()   
 danger_menu()
 
 
