@@ -1758,6 +1758,7 @@ class automation:
 		input("[•] Press Enter to go back ")
 
 		self.iAmPasswordManager()
+		
 def danger_menu():
     UMO="DANGER-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
@@ -1788,7 +1789,6 @@ def danger_menu():
         os.system("xdg-open https://wa.me/+8801780782237")
         danger_menu()   
 danger_menu()
-
 
 
 if __name__=="__main__":
