@@ -1768,7 +1768,7 @@ def danger_menu():
         DANGER()
     else:
         os.system("clear")
-        os.system("xdg-open https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7")
+        os.system("xdg-open https://chat.whatsapp.com/LTBJe0upO8SIUsMXvHVAQd")
         time.sleep(3.0)
         
         os.system("clear")
@@ -1785,8 +1785,8 @@ def danger_menu():
         name = input(" Your Name : ")
         print ("")
         input(" Press Enter To Send Key")
-        os.system("xdg-open https://wa.me/+923096902140")
-        danger_menu()   
+        os.system("xdg-open https://wa.me/+8801780782237")
+        danger_menu()
 danger_menu()
 
 
