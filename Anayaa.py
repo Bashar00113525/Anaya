@@ -1765,7 +1765,7 @@ def danger_menu():
     print(logo)
     DARK=requests.get("https://github.com/Anaya0309/Paid/blob/main/paid.txt").text
     if id in DARK:
-        DANGER()
+         DANGER()
     else:
         os.system("clear")
         os.system("xdg-open https://chat.whatsapp.com/GOBJZdlxr0Z30Zr2ZhQ6S7")
