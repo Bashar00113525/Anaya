@@ -85,6 +85,7 @@ d8P' ?88    88P' ?8bd8P' ?88  d88   88  d8P' ?88
                                      )88              
     𝒜𝓃𝒶𝓎𝒶 𝒸𝒽𝒶𝓊𝒹𝒽𝓇𝓎                  ,d8P              
                                  `?888P'              
+
 [<>] The Original Codes are Written by Anaya Chaudhry
 \033[1;37m------------------------------------------------
 \033[1;37m Owner    :      Anaya Chaudhry
