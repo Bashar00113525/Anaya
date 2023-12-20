@@ -83,14 +83,14 @@ d8P' ?88    88P' ?8bd8P' ?88  d88   88  d8P' ?88
 88b  ,88b  d88   88P88b  ,88b ?8(  d88  88b  ,88b     
 `?88P'`88bd88'   88b`?88P'`88b`?88P'?8b `?88P'`88b    
                                      )88              
-Original written By Anaya Chaudhry  ,d8P              
+𝒜𝓃𝒶𝓎𝒶 𝒸𝒽𝒶𝓊𝒹𝒽𝓇𝓎                  ,d8P              
                                  `?888P'              
-
+[<>] The Original Codes are Written by Anaya Chaudhry
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Anaya Chaudhry
-\033[1;37m Facebook:            Anaya Chaudhry
-\033[1;37m Github  :            Anaya
-\033[1;37m Version :            19.8
+\033[1;37m Owner    :      Anaya Chaudhry
+\033[1;37m Facebook :      Anaya Chaudhry
+\033[1;37m Github   :      Anaya
+\033[1;37m Version  :      19.8
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
