@@ -241,6 +241,7 @@ class main_crack():
 'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': 'MOBILE.LTE',
 'X-Tigon-Is-Retry': 'False',
+'etag': "9b3eae33b62db4669f3cd629dbe9c324f3aa90c1"
 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
 'x-fb-device-group': '5120',
 'X-FB-Friendly-Name': 'ViewerReactionsMutation',
@@ -307,6 +308,7 @@ class main_crack():
 'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': 'MOBILE.LTE',
 'X-Tigon-Is-Retry': 'False',
+'etag': "9b3eae33b62db4669f3cd629dbe9c324f3aa90c1"
 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
 'x-fb-device-group': '5120',
 'X-FB-Friendly-Name': 'ViewerReactionsMutation',
@@ -373,6 +375,7 @@ class main_crack():
 'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': 'MOBILE.LTE',
 'X-Tigon-Is-Retry': 'False',
+'etag': "9b3eae33b62db4669f3cd629dbe9c324f3aa90c1"
 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
 'x-fb-device-group': '5120',
 'X-FB-Friendly-Name': 'ViewerReactionsMutation',
