@@ -183,7 +183,7 @@ class iAmMain:
 			self.password_menu(id)
 		elif m_opt =="4":
 			 method.append('iiii')
-			self.password_menu(id)
+			 self.password_menu(id)
 		else:p(" [•] Wrong Select ! ");sp(2);self.method_select(id)
 
 	def password_menu(self,id):
