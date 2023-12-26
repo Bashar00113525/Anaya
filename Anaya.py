@@ -45,15 +45,13 @@ SEX = f"{random.choice(['Liger', 'METERED', 'MOBILE.EDGE', 'MOBILE.HSPA', 'MOBIL
 ses = requests.Session()
 def logo():
 	os.system('clear')
-	logo = ("""\33[;33m            
-\033[92m
-                                                                                                                                                      
+	logo = ("""\033[1;96m                                                                                                                                                     
  d888b8b    88bd88b  d888b8b  ?88   d8P  d888b8b  
 d8P' ?88    88P' ?8bd8P' ?88  d88   88  d8P' ?88  
 88b  ,88b  d88   88P88b  ,88b ?8(  d88  88b  ,88b 
 `?88P'`88bd88'   88b`?88P'`88b`?88P'?8b `?88P'`88b
                                      )88          
-     𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂              ,d8P          
+     𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂                ,d8P          
                                  `?888P'          
                                       
 [<>] The Original Codes are 𝓪𝓷𝓪𝔂𝔀 𝓬𝓱𝓪𝓾𝓭𝓱𝓻𝔂  
